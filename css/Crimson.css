@@ -1,0 +1,205 @@
+/* #DC143C */
+
+/*--------------------------------------------
+              Body And Scroll Design
+---------------------------------------------*/
+body{
+    font-family: "Sawarabi Mincho" !important;  
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+/* Scroll */
+body::-webkit-scrollbar {
+    width: .4em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} 
+body::-webkit-scrollbar-thumb {
+  background-color: #DC143C;
+}
+/* End Scroll */
+/* Button*/
+.btn-kotoby,
+.btn-kotobydown{
+    border: 1px solid #DC143C;
+    color: #DC143C;
+}
+/* End Botton*/
+/*--------------------------------------------
+              Start Navbar
+---------------------------------------------*/
+.navbar-brand span {
+    color: #DC143C;
+}
+/*---------------------------------------------
+                End Navbar
+-----------------------------------------------*/
+
+/*---------------------------------------------
+               Start Home Page 
+-----------------------------------------------*/
+.sub-container .btn-kotoby,
+.sub-container .btn-kotobydown{
+    color: #DC143C;
+}
+.btn-kotobydown i{
+    color: #DC143C;
+}
+
+/* -----------------------------------------------
+               End Home Page
+--------------------------------------------------*/
+
+/*------------------------------------------------
+              start about Page 
+--------------------------------------------------*/
+.about .container h2:before{
+    border-color: transparent transparent #DC143C;
+}
+.about .container a:hover{
+    color: #DC143C;
+}
+/*--------------------------------------------------
+               End about Page
+----------------------------------------------------*/
+
+/*---------------------------------------------------
+               Start Service
+-----------------------------------------------------*/
+/* Width For After In Service*/
+.service .container h2:before{
+    border-color: transparent transparent #DC143C;
+}
+.service i{
+    color: #DC143C;
+}
+/*----------------------------------------------------
+                  End Service
+------------------------------------------------------*/
+
+/*----------------------------------------------------
+                  Start Portfolio 
+------------------------------------------------------*/
+
+/* Width For After In Portfolio*/
+.portfolio .container h2:before{
+    border-color: transparent transparent #DC143C;
+}
+.box .box-content:before{
+    border-left: 1px solid #DC143C;
+    border-right: 1px solid #DC143C;
+}
+.box:hover .box-content:before{
+    top: 15px;
+    opacity: 1;
+}
+.box .box-content:after{
+    border-top: 1px solid #DC143C;
+    border-bottom: 1px solid #DC143C;
+}
+.box .icon li a:hover{
+    background: #DC143C;
+}
+/*------------------------------------------------------
+                End Portfolio
+--------------------------------------------------------*/
+.TESTIMONIALS h2:before{
+    border-color: transparent transparent #DC143C;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #DC143C;
+}
+.item blockquote {
+    border-left: 5px solid #DC143C;
+    margin: 0;
+}
+.item blockquote p:before {
+    color: #DC143C;
+}
+blockquote footer,
+blockquote small,
+blockquote .small {
+    color: #DC143C;
+}
+/*------------------------------------------------------
+                Start Contact
+--------------------------------------------------------*/
+/* Width For After In Contact*/
+.contact  h2:before{
+    border-color: transparent transparent #DC143C;
+}
+.contact form .btn-pr{
+    background: #DC143C;
+    color: #fff;
+}
+/* bootstrap Contact */
+.form-control {
+    border-bottom: 1px solid #DC143C;
+}
+.form-control:focus {
+     border-color: #DC143C; 
+}
+/*-------------------------------------------------------
+                 End Contact 
+--------------------------------------------------------*/
+
+/*------------------------------------------------------
+                 Start footer
+--------------------------------------------------------*/
+footer{
+    background: #333;
+    color: #fff;
+    padding: 76px 0;
+}
+footer p{
+    font-size: 15px;
+    max-width: 62%;
+    text-align: center;
+    margin: 0 auto;
+    color: #eee;
+}
+footer p span {
+    color: #DC143C;
+    text-decoration:underline;
+}
+footer p span:hover {
+    color: #DC143C;
+    cursor: pointer;
+}
+.icon-top{
+    background: #DC143C;
+}
+.icon-top:hover{
+    color: #fff;
+}
+/*-------------------------------------------------------
+                  End footer
+--------------------------------------------------------*/
+
+/*------------------------------------------------------
+                Start General
+--------------------------------------------------------*/
+.contact form .btn-pr:hover,
+.btn-pr:hover{
+    background: rgba(255, 255, 255, 0.44);
+    color: #DC143C;
+    border: 1px solid #DC143C;
+}
+/*-----------------------------------------------------------
+                        End General 
+------------------------------------------------------------- */
+
+/*------------------------------------------------------------
+                        Start Loading 
+--------------------------------------------------------------*/
+.loader{
+    background: #DC143C;
+}
+.loader:after{
+    color: #DC143C;
+}
+/*-------------------------------------------------------------
+                      End Loading
+---------------------------------------------------------------*/
